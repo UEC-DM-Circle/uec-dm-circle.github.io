@@ -1,3 +1,3 @@
 # UDCのホームページ
 
-https://udc-dev.github.io/UDC-Homepage/
+https://udc-dev.github.io/
