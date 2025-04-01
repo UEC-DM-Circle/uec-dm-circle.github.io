@@ -7,4 +7,4 @@ heroImage: '/udc.jpg'
 
 ## 過去の活動報告
 
-以前までの活動報告は、UDCの公式Twitterアカウントにて確認してください。
+過去の活動報告は、[UDCの公式Twitterアカウント](https://twitter.com/uecdmcircle)にて確認してください。
