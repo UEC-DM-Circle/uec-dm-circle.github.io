@@ -1,3 +1,3 @@
 # UDCのホームページ
 
-https://udc-dev.github.io/
+https://uec-dm-circle.github.io/
