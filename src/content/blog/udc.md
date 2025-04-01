@@ -1,10 +1,10 @@
 ---
-title: 'UDC'
+title: '過去の活動報告について'
 description: 'UDC'
 pubDate: '2025-04-01'
 heroImage: '/udc.jpg'
 ---
 
-## UDC
+## 過去の活動報告
 
-UDC
+以前までの活動報告は、UDCの公式Twitterアカウントにて確認してください。
