@@ -1,9 +1,3 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
@@ -44,7 +38,7 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
+	width: 70%;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
@@ -60,19 +54,20 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: 3em;
+	text-align: center;
 }
 h2 {
-	font-size: 2.441em;
+	font-size: 1.75em;
 }
 h3 {
-	font-size: 1.953em;
+	font-size: 1.5em;
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.25em;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 }
 strong,
 b {
