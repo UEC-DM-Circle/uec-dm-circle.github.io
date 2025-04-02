@@ -1,0 +1,19 @@
+---
+interface Props {
+    result: {
+        winners: string[];
+        decks: string[];
+        paths: string[];
+    };
+}
+const { result } = Astro.props;
+const { winners = [], decks=[], paths=[] } = result;
+---
+
+<h4>大会結果</h4>
+{winners.map((winner, index) => (
+    <p class="decks">
+        {index + 1}位：<b>{winner}</b> ({decks[index]})<br />
+        <img src={`udcs/results/${paths[index]}`} alt={`${winner}のデッキ`} />
+    </p>
+))}
