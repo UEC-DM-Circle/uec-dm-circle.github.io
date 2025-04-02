@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import '../styles/pages.css';
+---
+
+<Layout
+	title="サイトマップ"
+	description="Pages on this WebSite"
+	pubDate={new Date('2025-04-02')}
+	heroImage="/udc.jpg"
+>
+
+※各ページは随時更新中です。
+
+<h3>イベント記録</h3>
+<ul class="page-list">
+	<li><a href="/udcs" target="_blank">UDCS</a></li>
+	<li><a href="/udcs-chofu" target="_blank">UDCS in 調布祭</a></li>
+</ul>
+
+<h3>公式大会記録</h3>
+<ul class="page-list">
+	<li><a href="/dmcs" target="_blank">DMCS</a></li>
+	<li><a href="/dmgp" target="_blank">DMGP</a></li>
+</ul>
+
+<h3>議論・考察</h3>
+<ul class="page-list">
+	<li><a href="/decks" target="_blank">デッキレシピ集</a></li>
+	<li><a href="/env" target="_blank">環境考察</a></li>
+</ul>
+
+<h3>アプリ</h3>
+<ul class="page-list">
+	<li>
+		<a href="" target="_blank">デッキ貸し出し管理アプリ</a>
+		<ul>
+			<li>準備中です</li>
+			<!-- 準備できたらリンクとGitHubのURLを掲載 -->
+		</ul>
+	</li>
+</ul>
+</Layout>

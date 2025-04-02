@@ -1,0 +1,16 @@
+---
+const { info } = Astro.props;
+const { id, title, date, participation, format, num, place } = info;
+import FormattedDate from './FormattedDate.astro';
+---
+
+<h3 id={id}>{title}</h3>
+<h4>大会情報</h4>
+<ul>
+    <li>開催日：<FormattedDate date={date} /></li>
+    <li>参加形式：{participation}</li>
+    <li>フォーマット：{format}</li>
+    <li>参加人数：{num}人</li>
+    <li>開催場所：{place}</li>
+</ul>
+<h4>レギュレーション</h4>
