@@ -14,6 +14,6 @@ const { winners = [], decks=[], paths=[] } = result;
 {winners.map((winner, index) => (
     <p class="decks">
         {index + 1}位：<b>{winner}</b> ({decks[index]})<br />
-        <img src={`/udcs/results/${paths[index]}`} alt={`${winner}のデッキ`} />
+        <img src={`/results/${paths[index]}`} alt={`${winner}のデッキ`} />
     </p>
 ))}
