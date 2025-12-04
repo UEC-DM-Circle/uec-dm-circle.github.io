@@ -1,7 +1,18 @@
 ---
 const { info } = Astro.props;
-const { id, title, date, participation, format, num, place, shop, guest } = info;
-import FormattedDate from './FormattedDate.astro';
+const {
+    id,
+    title,
+    date,
+    participation,
+    format,
+    num,
+    place,
+    shop,
+    guest,
+    distribution_image,
+} = info;
+import FormattedDate from "./FormattedDate.astro";
 ---
 
 <h3 id={id}>{title}</h3>
@@ -13,5 +24,24 @@ import FormattedDate from './FormattedDate.astro';
     <li>定員：{num}人</li>
     <li>開催場所：{place}</li>
     <li>店舗/団体：{shop}</li>
-    <li>ゲスト：<b>{guest}</b>さん</li>
+    {
+        guest && (
+            <li>
+                ゲスト：<b>{guest}</b>さん
+            </li>
+        )
+    }
+    {
+        distribution_image && (
+            <li>
+                デッキ分布：
+                <br />
+                <img
+                    src={`/results/${distribution_image}`}
+                    alt={title + " デッキ分布"}
+                    style="width: auto; height: auto;"
+                />
+            </li>
+        )
+    }
 </ul>
